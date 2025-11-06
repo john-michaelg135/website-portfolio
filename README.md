@@ -55,12 +55,12 @@ Website/
 2. Open index.html in a web browser
 3. Or deploy to your preferred hosting service (preferable with live server)
 
-## License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
-
 ## Contact
 
 John Michael Garcia
 - Email: johnmichaelg046@gmail.com
 - GitHub: [@john-michaelg135](https://github.com/john-michaelg135)
+
+## Note
+
+This repository contains only some commits because I recently switched to a new laptop. I finished the project first before setting up my Git environment, which is why the full commit history isn’t reflected here.
