@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>John Michael Garcia - Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Animated background -->
+    <div class="bg-animation">
+        <div class="gradient-orb orb1"></div>
+        <div class="gradient-orb orb2"></div>
+        <div class="gradient-orb orb3"></div>
+    </div>
+
+    <!-- Navigation -->
+    <nav>
+        <ul>
+            <li><button class="tab-btn active" data-tab="about">About Me</button></li>
+            <li><button class="tab-btn" data-tab="resume">Resume</button></li>
+            <li><button class="tab-btn" data-tab="case-studies">Case Studies</button></li>
+            <li><button class="tab-btn" data-tab="projects">Projects</button></li>
+            <li><button class="tab-btn" data-tab="contacts">Contact</button></li>
+            <li><button class="tab-btn" data-tab="more">More</button></li>
+        </ul>
+    </nav>
+
+    <!-- Main content -->
+    <div class="container">
+        <!-- About Me Tab -->
+        <div id="about" class="tab-content active">
+            <div class="glass-card">
+                <div class="hero">
+                    <h1>John Michael Garcia</h1>
+                    <p>"I'm eager to apply for diverse job opportunities across different industries, where I can acquire, utilize, and develop my skills while demonstrating my expertise along the journey."</p>
+                    <p>"Aspiring Data Analyst seeking hands-on experience to grow technical and analytical capabilities."</p>
+                    <p>I’m also passionate about photography capturing moments, details, and perspectives that inspire my creative work.</p>
+                </div>
+
+                <div class="section">
+                    <h2>Languages</h2>
+                    <div class="tags">
+                        <div class="tag">🇺🇸 English – Fluent</div>
+                        <div class="tag">🇯🇵 Japanese – Beginner</div>
+                        <div class="tag">🇵🇭 Tagalog – Native</div>
+                    </div>
+                </div>
+
+                <div class="career-aspirations-card">
+                    <h2>Career Direction & Aspirations</h2>
+                    <div class="aspiration-content">
+                        <div class="aspiration-item">
+                            <h3>Current Goal</h3>
+                            <p>Transition into data analytics and systems documentation roles by leveraging IT education and hands-on project experience.</p>
+                        </div>
+                        <div class="aspiration-item">
+                            <h3>Long-Term Vision</h3>
+                            <p>Become a multidisciplinary professional who blends technical precision with creative communication capable of solving business problems through data, design, and documentation.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="section">
+                    <h2>Certifications</h2>
+                    <div class="timeline-item">
+                        <h3>Foundational C# with Microsoft</h3>
+                        <p style="color: var(--accent);">April 2025 – Present</p>
+                        <p>Object-oriented design, namespaces, compiler-level features. Coursework via Microsoft and freeCodeCamp.</p>
+                        <a href="assets/certification.png" download="certification.png" style="color: var(--accent); text-decoration: none;">Click here to download</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Resume Tab -->
+        <div id="resume" class="tab-content">
+            <div class="glass-card">
+                <div class="hero">
+                    <h1>Resume</h1>
+                    <p>Professional experience and educational background</p>
+                </div>
+
+                <div class="section">
+                    <h2>Education</h2>
+                    <div class="timeline-item">
+                        <h3>Bachelor of Science in Information Technology</h3>
+                        <p style="color: var(--accent);">2023 – Present</p>
+                        <p>Polytechnic University of the Philippines – Quezon City</p>
+                    </div>
+                </div>
+
+                <div class="section">
+                    <h2>Work Experience</h2>
+                    <div class="timeline-item">
+                        <h3>Retail Sales Associate</h3>
+                        <p style="color: var(--accent);">2020 – 2022</p>
+                        <p><strong>Amelita Clemente – Mexico</strong></p>
+                        <ul style="color: var(--text-secondary); line-height: 1.8; margin-left: 20px;">
+                            <li>Personalized customer service</li>
+                            <li>Inventory and restocking coordination</li>
+                            <li>Sales promotion and display management</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="section">
+                    <h2>Skills</h2>
+                    <div class="tags">
+                        <div class="tag">Time Management</div>
+                        <div class="tag">Negotiation</div>
+                        <div class="tag">Sales</div>
+                        <div class="tag">Communication Skills</div>
+                        <div class="tag">Adaptive Thinking</div>
+                        <div class="tag">Analysis Skills</div>
+                        <div class="tag">Phone Etiquette</div>
+                    </div>
+                </div>
+
+                <div class="section">
+                    <h2>Technical Skills</h2>
+                    <div class="tags">
+                        <div class="tag">HTML</div>
+                        <div class="tag">CSS</div>
+                        <div class="tag">Javascript</div>
+                        <div class="tag">C Language</div>
+                        <div class="tag">C#</div>
+                        <div class="tag">Python</div>
+                        <div class="tag">COBOL</div>
+                    </div>
+                </div>
+
+                <div class="section">
+                    <h2>File Download</h2>
+                    <div class="timeline-item">
+                        <h3>Indeed Resume</h3>
+                        <p><a href="assets/resume.pdf" download="resume.pdf" style="color: var(--accent); text-decoration: none; cursor: pointer;">Click here to download my resume file</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Case Studies Tab -->
+        <div id="case-studies" class="tab-content">
+            <div class="glass-card">
+                <div class="hero">
+                    <h1>Case Studies & Research</h1>
+                    <p>Academic research and system analysis documentation</p>
+                </div>
+
+                <div class="file-banner">
+                    <a class="file-card" href="assets/SIA-CASE-STUDY.pdf" download="SIA-CASE-STUDY.pdf">
+                        <span class="file-icon">📄</span>
+                        <h3>System Integration and Architecture (SIA) Case Study</h3>
+                        <p>Snapchat’s Architecture of Engagement: A Systemic View of Real-Time Interaction</p>
+                    </a>
+                    <a class="file-card" href="assets/SAD-CASE-STUDY.pdf" download="SAD-CASE-STUDY.pdf">
+                        <span class="file-icon">📄</span>
+                        <h3>System Analysis and Design (SAD) Case Study</h3>
+                        <p>System Analysis and Design for the Municipal Disaster Risk Reduction and Management Office (DRRMO)</p>
+                    </a>
+                </div>
+
+                <div class="section">
+                    <h2>Research Focus Areas</h2>
+                    <div class="tags">
+                        <div class="tag">System Architecture</div>
+                        <div class="tag">Business Context</div>
+                        <div class="tag">Integration Styles</div>
+                        <div class="tag">Quality Attributes</div>
+                        <div class="tag">Software Design</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Projects Tab -->
+        <div id="projects" class="tab-content">
+            <div class="glass-card">
+                <div class="hero">
+                    <h1>Projects & Job Readiness</h1>
+                    <p>Demonstrating employment readiness through ongoing projects and skill development</p>
+                </div>
+
+                <div class="section">
+                    <h2>📌 What I Seek</h2>
+                    <div class="horizontal-scroll-container">
+                        <div class="job-card">
+                            <h3>🎯 Actively Seeking Roles In</h3>
+                            <ul>
+                                <li>Entry-level Data Analyst</li>
+                                <li>Junior Sales Associate</li>
+                                <li>Technical Support Specialist</li>
+                                <li>Documentation Assistant</li>
+                                <li>Junior Systems Analyst</li>
+                            </ul>
+                        </div>
+                        <div class="job-card">
+                            <h3>🔍 Job Platforms Used</h3>
+                            <ul>
+                                <li>Indeed (Batasan Hills area)</li>
+                                <li>LinkedIn</li>
+                                <li>Local job boards</li>
+                            </ul>
+                        </div>
+                        <div class="job-card">
+                            <h3>📄 Resume Strategy</h3>
+                            <ul>
+                                <li>Tailored for tech and data roles</li>
+                                <li>Highlights transferable skills from retail and academic projects</li>
+                                <li>Includes information on multilingual capabilities</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="section">
+                    <h2>Google Workspace Proficiency</h2>
+                    <div class="timeline-item">
+                        <h3>📝 Google Docs</h3>
+                        <p>Academic writing, case studies, and collaborative editing</p>
+                    </div>
+                    <div class="timeline-item">
+                        <h3>📊 Google Sheets</h3>
+                        <p>Data entry, analysis, and group coordination</p>
+                    </div>
+                    <div class="timeline-item">
+                        <h3>💾 Google Drive</h3>
+                        <p>Organized repository for project documentation and multimedia assets</p>
+                    </div>
+                </div>
+
+                <div class="section">
+                    <h2>Technical Projects</h2>
+                    <div class="timeline-item">
+                        <h3>🎙️ Whisper Integration</h3>
+                        <p>Experimented with transcription and audio processing tools for multimedia projects</p>
+                    </div>
+                    <div class="timeline-item">
+                        <h3>💼 Portfolio Development</h3>
+                        <p>Designing and refining a multi-tab portfolio to showcase academic, technical, and creative work</p>
+                    </div>
+                    <div class="timeline-item">
+                        <h3>📚 Academic Submissions</h3>
+                        <p>Finalizing case studies on software architecture and documentation. Coordinating group feedback and presentation scripts</p>
+                    </div>
+                </div>
+
+                <div class="section">
+                    <h2>Current Focus</h2>
+                    <div class="tags">
+                        <div class="tag">Resume Refinement</div>
+                        <div class="tag">Portfolio Development</div>
+                        <div class="tag">Academic Submissions</div>
+                        <div class="tag">Group Coordination</div>
+                        <div class="tag">Research-driven Studies</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Contact Tab -->
+        <div id="contacts" class="tab-content">
+            <div class="glass-card">
+                <div class="hero">
+                    <h1>Contact</h1>
+                    <p>Reach out for questions, feedback, or collaboration.</p>
+                </div>
+
+                <div class="contact-grid">
+                    <div class="contact-item">
+                        <span>📍</span>
+                        <div>
+                            <strong>Location</strong>
+                            <p>Quezon City 1126</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <span>📞</span>
+                        <div>
+                            <strong>Phone</strong>
+                            <p>+639760187188</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <span>📧</span>
+                        <div>
+                            <strong>Email</strong>
+                            <p>johnmichaelg046@gmail.com</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="contact-logo-section">
+                    <div class="contact-logo">
+                        <span class="logo-icon">👤</span>
+                        <div class="profile-photo">
+                            <img src="assets/profile.jpg" alt="John Michael Garcia">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="section">
+                    <h2>Socials</h2>
+                    <div class="timeline-item">
+                        <h3>Facebook</h3>
+                        <p style="color: var(--accent);"><a href="https://www.facebook.com/share/16cPfVvsYS/" target="_blank" style="color: var(--accent); text-decoration: none;">@John Michael Garcia</a></p>
+                    </div>
+
+                    <div class="timeline-item">
+                        <h3>Instagram</h3>
+                        <p style="color: var(--accent);"><a href="https://www.instagram.com/kaelculated_?igsh=MXhudnVyM2c3d3Fodw==" target="_blank" style="color: var(--accent); text-decoration: none;">@kaelculated_</a></p>
+                    </div>
+
+                    <div class="timeline-item">
+                        <h3>GitHub</h3>
+                        <p style="color: var(--accent);"><a href="https://github.com/john-michaelg135" target="_blank" style="color: var(--accent); text-decoration: none;">@john-michaelg135</a></p>
+                    </div>
+                </div>
+
+                <div class="social-icons">
+                    <a class="social-icon">
+                        <i class="fab fa-facebook-f"></i>
+                    </a>
+                    <a class="social-icon">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                    <a class="social-icon">
+                        <i class="fab fa-github"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <!-- More Tab -->
+        <div id="more" class="tab-content">
+            <div class="glass-card">
+                <div class="hero">
+                    <h1>More</h1>
+                    <p>Watch the video guide to explore how this site works.</p>
+                </div>
+
+                <div class="section">
+                    <h2>Guide  Video</h2>
+                </div>
+
+                <div class="career-aspirations-card">
+                    <h2>Play the step-by-step guide below</h2>
+                    <div class="aspiration-content">
+                        <div class="aspiration-item video-container-wrapper">
+                            <video controls class="guide-video">
+                                <source src="assets/guide.mp4" type="video/mp4">
+                                Your browser does not support the video tag.
+                            </video>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="section">
+                    <h2>Photography</h2>
+                    <p>Outside of tech, I enjoy photography. I like capturing quiet moments, soft light, and simple scenes that tell a story. Still life and calm images help me see beauty in everyday things, and I use this to inspire my creative work.</p>
+                </div>
+
+                <div class="photo-gallery">
+                    <div class="gallery-card">
+                        <div class="card-logo"><i class="fas fa-image"></i></div>
+                            <img src="assets/photo-1.webp" alt="photo" class="card-image">
+                    </div>
+                    <div class="gallery-card">
+                        <div class="card-logo"><i class="fas fa-image"></i></div>
+                            <img src="assets/photo-2.webp" alt="photo" class="card-image">
+                    </div>
+                    <div class="gallery-card">
+                        <div class="card-logo"><i class="fas fa-image"></i></div>
+                            <img src="assets/photo-3.webp" alt="photo" class="card-image">
+                    </div>
+                    <div class="gallery-card">
+                        <div class="card-logo"><i class="fas fa-image"></i></div>
+                            <img src="assets/photo-4.webp" alt="photo" class="card-image">
+                    </div>
+                    <div class="gallery-card">
+                        <div class="card-logo"><i class="fas fa-image"></i></div>
+                            <img src="assets/photo-5.webp" alt="photo" class="card-image">
+                    </div>
+                    <div class="gallery-card">
+                        <div class="card-logo"><i class="fas fa-image"></i></div>
+                            <img src="assets/photo-6.webp" alt="photo" class="card-image">
+                    </div>
+                    <div class="gallery-card">
+                        <div class="card-logo"><i class="fas fa-image"></i></div>
+                            <img src="assets/photo-7.webp" alt="photo" class="card-image">
+                    </div>
+                    <div class="gallery-card">
+                        <div class="card-logo"><i class="fas fa-image"></i></div>
+                            <img src="assets/photo-8.webp" alt="photo" class="card-image">
+                    </div>
+                    <div class="gallery-card">
+                        <div class="card-logo"><i class="fas fa-image"></i></div>
+                            <img src="assets/photo-9.webp" alt="photo" class="card-image">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    
+
+    <div class="scroll-indicator">
+        <span>↓</span>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
