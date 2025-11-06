@@ -25,6 +25,8 @@ A personal portfolio website showcasing my academic journey, technical skills, a
   html
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 
+- Gemini & Claude AI – Provided support in calibrating the Liquid UI base, resolving minor bugs, and refining code comments to be clearer and more concise
+  
 ## Project Structure
 
 ```
