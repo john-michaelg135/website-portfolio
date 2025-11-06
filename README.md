@@ -27,6 +27,7 @@ A personal portfolio website showcasing my academic journey, technical skills, a
 
 ## Project Structure
 
+```
 Website/
 ├── index.html
 ├── README.md
@@ -48,6 +49,7 @@ Website/
     ├── resume.pdf
     ├── SAD-CASE-STUDY.pdf
     └── SIA-CASE-STUDY.pdf
+```
 
 ## Setup
 
